@@ -1,3 +1,5 @@
+> **Trwa kopiowanie projektu.** Ta wersja jest robocza — pozostałe pliki binarne i zasoby są jeszcze przesyłane. Instrukcja uruchomienia dotyczy kompletnej wersji.
+
 # Symulator oprysków w rolnictwie precyzyjnym
 
 Projekt aplikacji desktopowej opracowanej w ramach pracy magisterskiej. Symulator pozwala zaplanować przejazdy opryskiwacza na wyznaczonym polu i porównać oprysk jednorodny z dawkowaniem zależnym od wskaźnika roślinności.

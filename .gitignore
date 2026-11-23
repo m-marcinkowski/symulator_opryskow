@@ -1,0 +1,49 @@
+# Unity: dane odtwarzane przez edytor
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Buildy są dystrybuowane osobno
+/[Bb]uild/
+/[Bb]uilds/
+/TestOutput/
+
+# Lokalne dane IDE i pliki projektu generowane przez Unity
+/.vs/
+/.vscode/
+/.idea/
+/*.csproj
+/*.sln
+/*.slnx
+/*.suo
+/*.user
+/*.userprefs
+/*.pidb
+/*.booproj
+/*.svd
+/*.pdb
+/*.mdb
+/*.opendb
+/*.VC.db
+
+# Dane lokalne i sekrety
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+*.log
+/Saves/
+/sysinfo.txt
+/crashlytics-build.properties
+
+# Odtwarzane automatycznie z NativeDependencies; pliki .meta są śledzone.
+/Assets/Plugins/GDAL/FileGDBAPI.dll
+/Assets/Plugins/GDAL/gdal.dll
+/Assets/Plugins/GDAL/spatialite.dll
+
+# Pliki .meta w Assets oraz dołączone biblioteki pozostają w repozytorium.

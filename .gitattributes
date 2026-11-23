@@ -1,0 +1,3 @@
+# Zachowaj oryginalne bajty: część starszych skryptów używa Windows-1250.
+# Unity może odczytać istniejące zasoby bez zmiany kodowania i zakończeń linii.
+* -text

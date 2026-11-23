@@ -1,0 +1,22 @@
+{
+  "libraries": [
+    {
+      "path": "Assets/Plugins/GDAL/FileGDBAPI.dll",
+      "archive": "NativeDependencies/FileGDBAPI.dll.gz",
+      "sha256": "0335edf56742d752de37b11a847605332bfba86ee90b5449f70847723af122c1",
+      "bytes": 12027376
+    },
+    {
+      "path": "Assets/Plugins/GDAL/gdal.dll",
+      "archive": "NativeDependencies/gdal.dll.gz",
+      "sha256": "cbb48da8e7475f5af7600bd5adf1f443e1e1293b6575f323ed66b478e92bbdf4",
+      "bytes": 20721152
+    },
+    {
+      "path": "Assets/Plugins/GDAL/spatialite.dll",
+      "archive": "NativeDependencies/spatialite.dll.gz",
+      "sha256": "8a40093f3e0b5e57f424a70504835df503db259947bbf7e9b273451a552b6626",
+      "bytes": 13557248
+    }
+  ]
+}
