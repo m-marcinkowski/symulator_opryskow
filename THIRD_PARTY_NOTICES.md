@@ -20,3 +20,8 @@ Licencje opisane poniżej dotyczą wskazanych bibliotek, fontów i innych zasob�
 Samo zebranie powyższych tekstów nie oznacza jeszcze spełnienia wszystkich warunków rozpowszechniania całego builda lub paczki bibliotek natywnych. W szczególności wymogi dotyczące źródeł, wyjątków GPL/LGPL oraz wariantu licencji ECW wymagają osobnego domknięcia. Nie należy oznaczać całej paczki DLL jako MIT.
 
 [Zakres sprawdzenia i pozostałe ustalenia](docs/LICENSE_AUDIT.md).
+
+
+## Przygotowanie kopii publicznej
+
+Z biblioteki StandaloneFileBrowser dla macOS usunięto ścieżki źródeł w symbolach debugowania, zachowując wszystkie sekcje, tablicę symboli i polecenia ładowania. Z `mod_mapcache.dll` usunięto dane debugowania/PDB oraz ścieżkę źródła używaną w diagnostyce; sekcje wykonywalne pozostały niezmienione. W Clipper2 pozostawiono wyłącznie klucz publiczny i włączono podpisywanie odroczone w jego osobnym projekcie. Unity kompiluje źródła Clipper2 bez korzystania z tego ustawienia. Zachowano autorstwo i licencje składników. Z grafik JPEG/PNG usunięto zbędne metadane edytora bez zmiany pikseli.
